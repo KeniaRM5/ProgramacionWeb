@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="/index.html" method="POST">
+		<h1 align="center">Reserve su viaje</h1>
+		<div align="center">
+			<p>
+				<em>
+					Viajamos... no para escapar de la vida, sino para que la vida no se escape
+				</em>
+			</p>
+		</div>
+
+		<h2>Información personal</h2>
+		<hr>
+		<div>
+			<p>
+				<img src="https://www.spaneasylearning.com/wp-content/uploads/2018/07/viajar-mas.jpg" align="right" width="600" height="200">
+				<label for="respuesta_nombre"> Nombre completo *</label>
+				<input type="text" name="nombre" id="respuesta_nombre">
+		</div>
+		<div>
+			<br>
+			<label for="respuesta_email"> E-mail *</label>
+			<input type="text" name="email" id="respuesta_email">
+		</div>
+		<div>
+			<br>
+			<label for="respuesta_numero"> Numero de telefono *
+			</label>
+			<input type="text" name="telefono" id="respuesta_numero">
+		</div>
+		<div>
+			<br>
+			<label for="respuesta_nac"> Pais de residencia *</label>
+			<input type="text" name="nac" id="respuesta_nac">
+			<label for="respuesta_ciudad"> Ciudad *</label>
+			<input type="text" name="ciudad" id="respuesta_ciudad">
+		</div>
+			</p>
+			
+
+		<h2>Información sobre el viaje</h2>
+		<hr>
+
+		<div>
+			<label>¿A que País quieres viajar? *</label>
+		</div>
+		<div>
+			<p><img src="https://www.surferrule.com/wp-content/uploads/2017/07/Hora-de-viajar.jpg" align="right" width="600" height="400">
+			<br>
+			<input type="radio" name="respuesta" id="alemania" value="Alemania">
+			<label for="=alemania">Alemania</label>
+			<input type="radio" name="respuesta" id="mexico" value="México">
+			<label for="=mexico">México</label>
+			<input type="radio" name="respuesta" id="españa" 
+			value="España">
+			<label for="=españa">España</label>
+			<input type="radio" name="respuesta" id="australia" value="Australia">
+			<label for="=australia">Australia</label>
+			<input type="radio" name="respuesta" id="brasil" value="Brasil">
+			<label for="=brasil">Brasil</label>
+			<input type="radio" name="respuesta" id="costa_rica" value="Costa Rica">
+			<label for="=costa_rica">Costa Rica</label>
+			<br>
+			<input type="radio" name="respuesta" id="estados_unidos" value="Estados Unidos">
+			<label for="=estados_unidos">Estados Unidos</label>
+			<input type="radio" name="respuesta" id="francia" value="Francia">
+			<label for="=francia">Francia</label>
+			<input type="radio" name="respuesta" id="nueva_zelanda" value="Nueva Zelanda">
+			<label for="=nueva_zelanda">Nueva Zelanda</label>
+			<input type="radio" name="respuesta" id="portugal" value="Portugal">
+			<label for="=portugal">Portugal</label>
+			<input type="radio" name="respuesta" id="suecia" value="Suecia">
+			<label for="=suecia">Suecia</label>
+			<input type="radio" name="respuesta" id="tailandia" value="Tailandia">
+			<label for="=tailandia">Tailandia</label>
+			</p>
+		</div>
+
+		<div>
+			<br>
+			<label for="respuesta_lugares"> Por favor, escribe que lugares te gustaria visitar del Pais seleccionado.</label>
+		</div>
+		<div>
+			<textarea id="respuesta_lugares" rows="5" cols="50">
+			</textarea>
+		</div>
+		<div>
+			<br>
+			<label>¿Qué tipo de programa de actividades prefieres? *</label>
+		</div>
+		<div>
+			<br>
+			<input type="radio" name="respuesta" id="matrimonial" value="Matrimonial">
+			<label for="matrimonial">Matrimonial</label>
+			<input type="radio" name="respuesta" id="familiar" value="Familiar">
+			<label for="=familiar">Familiar</label>
+			<input type="radio" name="respuesta" id="de_trabajo" value="De trabajo">
+			<label for="=de_trabajo">De trabajo</label>
+			<input type="radio" name="respuesta" id="estudiantes" value="Estudiantes">
+			<label for="=estudiantes">Estudiantes</label>
+			<br>
+			<input type="radio" name="respuesta" id="cultural" value="Cultural">
+			<label for="=cultural">Cultural</label>
+			<input type="radio" name="respuesta" id="aventura" value="Aventura">
+			<label for="=aventura">Aventura</label>
+			<input type="radio" name="respuesta" id="ecoturismo" value="Ecoturismo">
+			<label for="=ecoturismo">Ecoturismo</label>
+			<input type="radio" name="respuesta" id="gastronomia" value="Gastronomia">
+			<label for="=gastronomia">Gastronomía</label>
+		</div>
+		<div>
+			<br>
+			<label>¿Qué medios de transporte prefieres para moverte dentro del Pais? *</label>
+		</div>
+		<div>
+			<br>
+			<input type="checkbox" name="respuesta" id="carro" value="Carro">
+			<label for="=carro">Carro</label>
+			<input type="checkbox" name="respuesta" id="tren" value="Tren">
+			<label for="=tren">Tren</label>
+			<input type="checkbox" name="respuesta" id="autobus" value="Autobus">
+			<label for="autobus">Autobus</label>
+			<input type="checkbox" name="respuesta" id="ferry" value="Ferry">
+			<label for="=ferry">Ferry</label>
+			<br>
+			<input type="checkbox" name="respuesta" id="barco" value="Barco">
+			<label for="=barco">Barco</label>
+			<input type="checkbox" name="respuesta" id="bicicleta" value=Bicicleta">
+			<label for="=bicicleta">Bicicleta</label>
+			<input type="checkbox" name="respuesta" id="motocicleta"  value="alemania">
+			<label for="=motocicleta">Motocicleta</label>
+		</div>
+		<div>
+			<br>
+			<label for="respuesta_guia">Guias *</label>
+		</div>
+		<div>
+			<br>
+			<input type="checkbox" name="respuesta" id="guia_interprete" value="Guia interprete">
+			<label for="=guia_interprete">Guia interprete</label>
+			<input type="checkbox" name="respuesta" id="guia_conductor" value="Guia conductor">
+			<label for="=guia_conductor">Guia conductor</label>
+			<input type="checkbox" name="respuesta" id="guia_fijo" value="Guia fijo">
+			<label for="=guia_fijo">Guia fijo</label>
+			<input type="checkbox" name="respuesta" id="guia_local" value="Guia local">
+			<label for="=guia_local">Guia local</label>
+		</div>
+		<div>
+			<br>
+			<label for="respuesta_na"> Número de Adultos: * </label>
+			<input type="number" name="n_adultos" id="respuesta_na">
+			<label for="respuesta_nn"> Niños (2 – 12 años): </label>
+			<input type="number" name="n_niños" id="respuesta_nn">
+			<label for="respuesta_nb"> Bebés (menos de 2 años): </label>
+			<input type="number" name="n_bebes" id="respuesta_nb">
+		</div>
+		<div>
+			<br>
+			<label for="Preferencias"> Preferencias de alojamiento: *</label>
+			<input type="text" name="preferencias" list="Preferencias" id="preferencias">
+			<datalist id="Preferencias">
+				<option value="Resorts y Hoteles de playa"></option>
+				<option value="Motel"></option>
+				<option value="Albergue"></option>
+				<option value="Casa rural"></option>
+				<option value="Posada"></option>
+				<option value="Pensión"></option>
+				<option value="Aparthotel"></option>
+				<option value="Hotel"></option>
+				<option value="Hotel de negocios"></option>
+			</datalist>
+		</div>
+
+		<h2> Fecha del viaje</h2>
+		<hr>
+		<div>
+			<label>Fecha de salida: *</label>
+			<input type="text" name="dia" value="Dia">
+			<label>/</label>
+			<input type="text" name="mes" value="Mes">
+			<label>/</label>
+			<input type="text" name="año" value="Año">
+		</div>
+		<div>
+			<br>
+			<label for="respuesta_peticiones"> Peticiones especiales: </label>
+		</div>
+		<div>
+			<textarea id="respuesta_peticiones" rows="5" cols="50">
+			</textarea>
+		</div>
+		<div align="center">
+			<br>
+			<input type = "submit" value = "Solicitar viaje" align="center">
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+	background: #40E0D0;
+	font-family: Courier New, Courier, monospace;
+	margin: 20px;
+	padding: 30px;
+}
+
+#principal{
+	width: 1250px;
+	height: 50px;
+	background: #ff8000;
+	font-family: Courier New, Courier, monospace;
+}
+
+#principal2{
+	background: #FFA500;
+	font-family: Courier New, Courier, monospace;
+}
+
+#principal3{
+	font-family: Courier New, Courier, monospace;
+}
+
+strong.t1 { color: #FF0000;}
+strong.t2 { background: #CD853F; border: 2px solid #8B4513; padding: .1em;}
+
+a{ 
+	color: #00008B; 
+	font-weight: bold;
+}

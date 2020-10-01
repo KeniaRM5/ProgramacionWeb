@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modelo de cajas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="principal" align="center">
+		<h1> Modelo de cajas</h1>
+	</div>
+	<div id="principal2"><h2>¿Qué es el modelo de cajas CSS?</h2></div>
+	<div><p>El modelo de cajas CSS completo se aplica a cajas que presentan comportamiento en bloque; las cajas con comportamiento en línea solo usan una parte del comportamiento definido en el modelo de cajas. El modelo define cómo funcionan juntas las diferentes partes de una caja (margen, borde, relleno y contenido) para crear una caja que puedas ver en tu página. Para complicarlo un poco más, hay un modelo de cajas estándar y un modelo de cajas alternativo.</p></div>
+	<div><p>El modelo de cajas o <em>"box model"</em> es seguramente la característica más importante del lenguaje de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las páginas se representen mediante cajas rectangulares.</p></div>
+	<div><p>Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento.</p></div>
+	<div id="principal3"><h3>Partes de una caja</h3></div>
+	<div><p>Las partes que componen cada caja y su orden de visualización desde el punto de vista del usuario son las siguientes:</p></div>
+	<div><ul>
+		<li><strong class="t1">Contenido (content):</strong> se trata del contenido HTML del elemento (las palabras de un párrafo, una imagen, el texto de una lista de elementos, etc.)</li>
+		<li><strong class="t1">Relleno (padding):</strong> espacio libre opcional existente entre el contenido y el borde.</li>
+		<li><strong class="t1">Borde (border):</strong> línea que encierra completamente el contenido y su relleno.</li>
+		<li><strong class="t1">Imagen de fondo (background image):</strong> imagen que se muestra por detrás del contenido y el espacio de relleno.</li>
+		<li><strong class="t1">Color de fondo (background color):</strong> color que se muestra por detrás del contenido y el espacio de relleno.</li>
+		<li><strong class="t1">Margen (margin):</strong> separación opcional existente entre la caja y el resto de cajas adyacentes.</li>
+	</ul></div>
+	<div><p>El diagrama siguiente muestra estas capas:</p></div>
+	<div align="center"><img src = "https://mdn.mozillademos.org/files/16558/box-model.png" /></div>
+	<div><p>El relleno y el margen son transparentes, por lo que en el espacio ocupado por el relleno se muestra el color o imagen de fondo (si están definidos) y en el espacio ocupado por el margen se muestra el color o imagen de fondo de su elemento padre (si están definidos). Si ningún elemento padre tiene definido un color o imagen de fondo, se muestra el color o imagen de fondo de la propia página (si están definidos).</p></div>
+	<div id="principal2"><h2>Márgenes, relleno y bordes</h2></div>
+	<div id="principal3"><h3>Margen</h3></div>
+	<div><p>El margen es un espacio invisible que hay alrededor de la caja. Aleja el resto de elementos de la caja. Los márgenes pueden tener valores positivos o negativos. Establecer un margen negativo para un lado de tu caja puede hacer que se superponga con otros elementos de la página. Tanto si utilizas el modelo de cajas estándar como el alternativo, el margen siempre se añade después de haber calculado el tamaño de la caja que se ve.</p></div>
+	<div>
+	<p>Podemos controlar todos los márgenes de un elemento a la vez usando la propiedad margin, o cada lado individualmente usando las propiedades equivalentes sin abreviar:</p>
+    </div>
+    <div>
+	<p><ul>
+		<li><strong class="t2">margin-top</strong></li>
+		<li><strong class="t2">margin-right</strong></li>
+		<li><strong class="t2">margin-bottom</strong></li>
+		<li><strong class="t2">margin-left</strong></li>
+	</ul></p>
+    </div>
+	<div id="principal3"><h3>Bordes</h2></div>
+		<div>
+			<p>El borde se dibuja entre el margen y el área de relleno de una caja. Si utilizas el modelo de cajas estándar, el tamaño del borde se añade a los elementos width y height que establecen el alto y el ancho de la caja. Si utilizas el modelo de cajas alternativo, el tamaño del borde reduce el tamaño de la caja de contenido, porque ocupa una parte del alto y el ancho disponibles.</p>
+		</div>
+		<div>
+			<p>Hay una gran cantidad de propiedades que sirven para aplicar estilo a los bordes: hay cuatro bordes y cada borde tiene un estilo, un ancho y un color que podemos modificar.</p>
+		</div>
+		<div>
+			<p>Puedes establecer el ancho, el estilo o el color de los cuatro bordes a la vez utilizando la propiedad border.</p>
+		</div>
+		<div>
+			<p>Para establecer las propiedades de cada lado de forma individual, puedes utilizar:</p>
+			<p>
+				<ul>
+					<li><strong class="t2">border-top</strong></li>
+					<li><strong class="t2">border-right</strong></li>
+					<li><strong class="t2">border-bottom</strong></li>
+					<li><strong class="t2">border-left</strong></li>
+				</ul>
+			</p>
+		</div>
+		<div>
+			<p>Para establecer el ancho, el estilo o el color de todos los lados, usa lo siguiente:</p>
+			<p><ul>
+				<li><strong class="t2">border-width</strong></li>
+				<li><strong class="t2">border-style</strong></li>
+				<li><strong class="t2">border-color</strong></li>
+			</ul></p>
+		</div>
+		<div>
+			<p>Para establecer el ancho, el estilo o el color de un solo lado, puedes usar una de las propiedades no abreviadas:</p>
+			<p><ul>
+				<li><strong class="t2">border-top-width</strong></li>
+				<li><strong class="t2">border-top-style</strong></li>
+				<li><strong class="t2">border-top-color</strong></li>
+				<li><strong class="t2">border-right-width</strong></li>
+				<li><strong class="t2">border-right-style</strong></li>
+				<li><strong class="t2">border-right-color</strong></li>
+				<li><strong class="t2">border-bottom-width</strong></li>
+				<li><strong class="t2">border-bottom-style</strong></li>
+				<li><strong class="t2">border-bottom-color</strong></li>
+				<li><strong class="t2">border-left-width</strong></li>
+				<li><strong class="t2">border-left-style</strong></li>
+				<li><strong class="t2">border-left-color</strong></li>
+			</ul></p>
+		</div>
+		<div id="principal3"><h3>Relleno</h2></div>
+		<div><p>El relleno se encuentra entre el borde y el área de contenido. A diferencia de los márgenes, el relleno no puede tomar valores negativos, por lo que el valor debe ser 0 o positivo. Cualquier fondo aplicado a tu elemento se mostrará detrás del área de relleno y, generalmente, se usa para mantener el contenido alejado del borde.</p>
+			<p>Podemos controlar el área de relleno para todos los lados de un mismo elemento usando la propiedad padding, o para cada lado uno de los lados usando las propiedades equivalentes:</p>
+			<p><ul>
+				<li><strong class="t2">padding-top</strong></li>
+				<li><strong class="t2">padding-right</strong></li>
+				<li><strong class="t2">padding-bottom</strong></li>
+				<li><strong class="t2">padding-left</strong></li>
+			</ul></p></div>
+			<div id="principal3"><h3>Referencias:</h2></div>
+				<div><p><a href = "#"> https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/El_modelo_de_caja</a></p></div>
+</body>
+</html>

@@ -9,14 +9,18 @@ h1{
 	text-align: center;
 }
 
-img{
-	float: right;
-}
-
-@media(min-width: 1367px and min-height: 768px){
+@media(max-width: 1366px){
 	body{
-		background-color: #7B68EE;
+		background-color: #00FA9A;
+		width: 1100px;
+		height: 900px;
 	}
 }
 
-@media(min-width: 720px and min-height: 1520px)
+@media(max-width: 720px){
+	img{
+		width: 200px;
+		height: 200px;
+		background-color: #7B68EE;
+	}
+}

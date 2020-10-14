@@ -21,6 +21,8 @@ h1{
 	img{
 		width: 200px;
 		height: 200px;
+	}
+	body{
 		background-color: #7B68EE;
 	}
 }

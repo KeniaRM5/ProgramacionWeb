@@ -8,3 +8,15 @@ h1{
 	font-family: impact;
 	text-align: center;
 }
+
+img{
+	float: right;
+}
+
+@media(min-width: 1367px and min-height: 768px){
+	body{
+		background-color: #7B68EE;
+	}
+}
+
+@media(min-width: 720px and min-height: 1520px)

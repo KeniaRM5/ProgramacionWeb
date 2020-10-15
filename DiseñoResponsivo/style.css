@@ -35,7 +35,7 @@ section{
 }
 
 .texto1{
-	font-family: impact;
+	font-family: comic sans;
 	background-color: #87CEEB;
 	padding-top: 10px;
 	padding-left: 10px;
@@ -112,8 +112,8 @@ section{
 }
 
 img{
-		width: 1100px;
-		height: 900px;
+	width: 1100px;
+	height: 900px;
 	}
 
 .img1{
@@ -140,6 +140,11 @@ img{
 @media(max-width: 360px){
 	body{
 		background-color: #000000;
+	}
+
+	img{
+	width: 200px;
+	height: 200px;
 	}
 
 }

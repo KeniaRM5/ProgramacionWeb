@@ -115,7 +115,6 @@ section{
 	width: 500px;
 	height: 290px;
 	float: right;
-	margin-bottom: 20px;
 }
 
 .sec2{
@@ -128,6 +127,10 @@ section{
 
 img{
 	border: 5px solid #000000;
+}
+
+figure{
+	margin-top: 10px;
 }
 
 @media(min-width: 360px){

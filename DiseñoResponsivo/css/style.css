@@ -135,6 +135,139 @@ img{
 	body{
 		background-color: #1E90FF;
 	}
+
+	header{
+	background-color:#FFA500;
+	padding-top: 1px;
+	margin-top: 5px;
+}
+
+h1{
+	font-family: impact;
+	text-align: center;
+	font-size: 300%;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+
+section{
+	color: #000000;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.t1{
+	font-family: impact;
+	color: #FFFFFF;
+	background-color: #4682B4;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	right: 50px;
+}
+
+.texto1{
+	font-family: impact;
+	background-color: #87CEEB;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+}
+
+.t2{
+	font-family: impact;
+	color: #FFFFFF;
+	background-color: #4682B4;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.texto2{
+	font-family: impact;
+	background-color: #87CEEB;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+}
+
+.t3{
+	font-family: impact;
+	color: #FFFFFF;
+	background-color: #4682B4;
+	width: 510px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.texto3{
+	font-family: impact;
+	width: 510px;
+	background-color: #87CEEB;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+}
+
+.t4{
+	font-family: impact;
+	color: #FFFFFF;
+	background-color: #4682B4;
+	width: 510px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.texto4{
+	font-family: impact;
+	width: 510px;
+	background-color: #87CEEB;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+}
+
+img{
+		width: 1100px;
+		height: 900px;
+	}
+
+.img1{
+	width: 520px;
+	height: 305px;
+	float: right;
+	margin-top: 20px;
+}
+
+.sec2{
+	margin-top: 20px;
+}
+
+img{
+	border: 5px solid #000000;
+}
 }
 
 @media(max-width: 360px){

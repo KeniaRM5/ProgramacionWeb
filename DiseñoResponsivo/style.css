@@ -126,7 +126,7 @@ img{
 	border: 5px solid #000000;
 }
 
-@media(max-width: 1366px){
+@media(min-width: 360px){
 	body{
 		background-color: #1E90FF;
 	}

@@ -122,6 +122,10 @@ section{
 	margin-top: 20px;
 }
 
+.imagen{
+	background-color: #000000;
+}
+
 img{
 	border: 5px solid #000000;
 }

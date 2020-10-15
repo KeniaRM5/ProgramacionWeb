@@ -35,7 +35,7 @@ section{
 }
 
 .texto1{
-	font-family: comic sans;
+	font-family: century gothic;
 	background-color: #87CEEB;
 	padding-top: 10px;
 	padding-left: 10px;
@@ -56,7 +56,7 @@ section{
 }
 
 .texto2{
-	font-family: impact;
+	font-family: century gothic;
 	background-color: #87CEEB;
 	padding-top: 10px;
 	padding-left: 10px;
@@ -78,7 +78,7 @@ section{
 }
 
 .texto3{
-	font-family: impact;
+	font-family: century gothic;
 	width: 510px;
 	background-color: #87CEEB;
 	padding-top: 10px;
@@ -101,7 +101,7 @@ section{
 }
 
 .texto4{
-	font-family: impact;
+	font-family: century gothic;
 	width: 510px;
 	background-color: #87CEEB;
 	padding-top: 10px;
@@ -130,17 +130,11 @@ img{
 	body{
 		background-color: #1E90FF;
 	}
-}
-
-@media(min-width: 360px){
-	body{
-		background-color: #000000;
-	}
 
 	img{
 	width: 200px;
 	height: 200px;
 	}
-
 }
+
 

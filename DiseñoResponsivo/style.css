@@ -131,13 +131,13 @@ img{
 	border: 5px solid #000000;
 }
 
-@media(min-width: 720px){
+@media(max-width: 1366px){
 	body{
 		background-color: #1E90FF;
 	}
 }
 
-@media(max-width: 360px){
+@media(min-width: 360px){
 	body{
 		background-color: #000000;
 	}

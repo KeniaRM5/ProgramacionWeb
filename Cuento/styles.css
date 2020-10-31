@@ -1,0 +1,136 @@
+body{
+	background-image: url("bush.png");
+}
+
+header{
+	background-color: #00CED1;
+	color: #FF8C00;
+	font-family: impact;
+	text-align: center;
+	padding: 15px;
+	border-style: solid;
+}
+P{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: comic sans ms;
+	padding-bottom: 5px;
+}
+
+.lbl1{
+	text-align: center;
+	padding-top: 20px;
+	font-style: solid;
+	font-family: comic sans ms;
+}
+
+img{
+    max-width: 100%;
+}
+
+.imagen2{
+	text-align: center;
+	display: none;
+}
+
+.opciones{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.opciones2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.opciones3{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.cuadro1{
+	background-color: #FFFFFF;
+	max-width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.cuadro3{
+	text-align: center;
+}
+
+#dos, #tres, #cuatro, #cinco, #seis, #siete{
+	display: none;
+}
+
+#lab1{
+	background-color: #FFFFFF;
+	height: 100px;
+	left: 100px;
+}
+
+figure{
+	text-align: center;
+}
+
+#boton2,#boton4{
+	background-color: #483D8B;
+	color: #FFFFFF;
+	padding: 15px;
+	border: 2px solid #FFFFFF;
+	font-family: "comic sans ms";
+}
+
+#boton1{
+	background-color: #483D8B;
+	color: #FFFFFF;
+	padding: 15px;
+	border: 2px solid #FFFFFF;
+	font-family: "comic sans ms";
+	margin-top: 100px;
+}
+
+#boton3{
+	display: none;
+	background-color: #483D8B;
+	color: #FFFFFF;
+	padding: 15px;
+	border: 2px solid #FFFFFF;
+	font-family: "comic sans ms";
+	font-weight: 700;
+}
+
+#menu{
+	color: #FFFFFF;
+	padding: 5px;
+	font-family: "comic sans ms";
+	font-weight: 700;
+}
+
+#opcion1, #opcion2, #opcion3{
+	display: none;
+	background-color: #FFA500;
+	color: #000000;
+	padding: 15px;
+	border: 2px solid #FFFFFF;
+	font-family: "comic sans ms";
+	font-weight: 700;
+	margin-top: 20px;
+
+	text-align: center;
+}
+
+/*Dispositivos pequenos*/
+@media(min-width: 360px)and (max-width: 640px){
+header{
+	background-color: #FFA500;
+	color: #FF0000;
+}
+
+/*Dispositivos medianos*/
+@media(min-width: 1024px) and (max-width: 1366px){
+header{
+	background-color: #FF7F50;
+}

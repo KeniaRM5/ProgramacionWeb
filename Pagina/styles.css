@@ -1,0 +1,76 @@
+.img{
+	width: 540px;
+	height: 100px;
+}
+
+nav.navbar{
+	background-color: #FF0000;
+	color: #ffffff;
+	font-family: impact;
+}
+
+.navbar-toggler{
+	background-color: #ffffff;
+}
+
+.dropdown-menu{
+	background-color: #4682B4;
+	text-align: center;
+}
+
+a{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.jumbotron{
+	background-color: #4682B4;
+	font-family: impact;
+	margin-top: 10px
+}
+
+#sub{
+	font-family: comic sans ms;
+}
+
+#tit2{
+	font-family: impact;
+}
+
+#uno, #tres{
+	background-color: #4682B4;
+	padding: 10px;
+	font-family: comic sans ms;
+}
+
+#dos, #cuatro{
+	background-color: #FF0000;
+	padding: 10px;
+	font-family: comic sans ms;
+}
+
+#pagOfi{
+	text-align: center;
+	margin-top: 20px; 
+	font-family: impact;
+}
+
+#enlace1{
+	text-align: center;
+}
+
+#enlace{
+	color: #000000;
+	font-family: impact;
+}
+
+#imagen{
+	text-align: center;
+	width: 540px;
+	height: 100px;
+}
+
+.imagen1, .imagen2, .imagen3, .imagen4{
+	width: 190px;
+	height: 150px;
+}

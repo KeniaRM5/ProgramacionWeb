@@ -1,0 +1,56 @@
+body{
+	background-image: url("fondos/footer_lodyas.png");
+}
+
+button{
+	border-radius: 10px;
+	background-color: #FF0000;
+	height: 60px;
+	font-family: impact;
+	font-size: 15px;
+}
+
+p{
+	font-family: courier;
+}
+
+#jumbotron{
+	background-color: #2F4F4F;
+}
+
+#uno{
+	background-color: #696969;
+}
+
+#sub1, #sub2, #sub3, #sub4{
+	background-color: #4682B4;
+	font-family: impact;
+}
+
+.container{
+	background-color: #FFFFFF;
+}
+
+#dos{
+	background-image: url("fondos/footer_lodyas.png");
+	margin-bottom: 10px;
+}
+
+#img1, #img2, #img3{
+	text-align: center;
+}
+
+#img1-1{
+	width: 330px;
+	height: 180px;
+}
+
+#img2-1{
+	width: 400px;
+	height: 200px;
+}
+
+#img3-1{
+	width: 700px;
+	height: 455px;
+}
